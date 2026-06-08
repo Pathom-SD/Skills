@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "organization": "Skills",
+  "date": "June 2026",
+  "abstract": "Enterprise single-page summary dashboard framework for AI agents. Covers output format selection (single HTML, multi-file folder, Next.js), layout engine, light/dark themes, TH/EN i18n, component system, Chart.js patterns, and delivery checklists. Optimized for analytics summaries, operations overviews, and industrial/AMR status boards.",
+  "references": [
+    "https://agentskills.io/",
+    "https://skills.sh/",
+    "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+    "https://tailwindcss.com/docs/installation/play-cdn",
+    "https://www.chartjs.org/"
+  ]
+}
