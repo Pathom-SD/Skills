@@ -19,19 +19,13 @@ Enterprise single-page summary dashboards — KPI cards, charts, summary tables.
 Install all skills from this repository:
 
 ```bash
-npx skills add https://github.com/Pathom-SD/Skills -y
+npx skills add https://github.com/Pathom-SD/Skills
 ```
 
 Install a specific skill:
 
 ```bash
-npx skills add https://github.com/Pathom-SD/Skills --skill enterprise-dashboard-ui -y
-```
-
-Install globally (available in all projects):
-
-```bash
-npx skills add https://github.com/Pathom-SD/Skills --skill enterprise-dashboard-ui -g -y
+npx skills add https://github.com/Pathom-SD/Skills --skill enterprise-dashboard-ui
 ```
 
 List available skills without installing:
