@@ -90,7 +90,6 @@ Each rule contains incorrect vs correct examples.
 |----------|---------|
 | `AGENTS.md` | Full compiled guide |
 | `references/reference.md` | CDN stack, tokens, Chart.js, multi-file conventions |
-| `examples/operations-summary.html` | Working AMR fleet dashboard sample |
 
 ## Quick Prompt Anchor
 

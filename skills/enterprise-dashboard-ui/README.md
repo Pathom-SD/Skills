@@ -9,7 +9,6 @@ Structured skill for creating enterprise summary dashboards — optimized for ag
   - `_sections.md` — Section metadata
   - `_template.md` — Template for new rules
 - `references/reference.md` — Detailed design system (CDN, tokens, charts)
-- `examples/` — Sample dashboard output
 - `AGENTS.md` — Full compiled guide
 - `metadata.json` — Document metadata
 

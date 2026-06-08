@@ -45,8 +45,7 @@ skills/
     ├── AGENTS.md          # Full compiled guide
     ├── metadata.json      # Skill metadata
     ├── rules/             # Individual rules (one file per topic)
-    ├── references/        # Detailed design system reference
-    └── examples/          # Sample dashboard output
+    └── references/        # Detailed design system reference
 ```
 
 Each skill follows the [Vercel agent-skills](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) pattern: a short `SKILL.md` that links to focused rule files under `rules/`.

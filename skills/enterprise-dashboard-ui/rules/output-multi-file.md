@@ -12,14 +12,14 @@ Split when code is large, external data is needed, or features multiply. Still *
 **Incorrect (800-line monolith or unnecessary npm):**
 
 ```text
-operations-summary.html  (850 lines, fetch + export + filters inline)
+dashboard.html  (850 lines, fetch + export + filters inline)
 package.json + vite.config.ts for a static dashboard prototype
 ```
 
 **Correct:**
 
 ```text
-examples/operations-summary/
+fleet-summary/
 ├── index.html
 ├── css/styles.css
 ├── js/main.js, theme.js, i18n.js, charts.js, render.js, api.js
@@ -39,7 +39,7 @@ examples/operations-summary/
 Serve folder when using `fetch` or ES modules:
 
 ```bash
-npx --yes serve examples/operations-summary
+npx --yes serve fleet-summary
 ```
 
 `api.js` must handle loading, empty, and error UI states.

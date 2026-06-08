@@ -142,7 +142,7 @@ Use when the dashboard outgrows one HTML file — see SKILL.md triggers (size, e
 ### Recommended structure
 
 ```text
-example/operations-summary/
+fleet-summary/
 ├── index.html
 ├── css/
 │   └── styles.css
@@ -223,7 +223,7 @@ On `langchange`, re-fetch or keep both `th.json` + `en.json` in memory.
 `file://` often blocks `fetch` and ES modules. Tell the user to serve the folder:
 
 ```bash
-npx --yes serve example/operations-summary
+npx --yes serve fleet-summary
 # or
 python -m http.server 8080
 ```

@@ -24,13 +24,13 @@ src/ or Next.js requested                    →  Corp Brain mode
 
 - One file, CDN only (Tailwind Play, Chart.js 4, Lucide UMD, Inter)
 - Mock data embedded in `<script>`
-- Save under `examples/` or user path
+- Save at user-specified path (or project output directory)
 - Theme + i18n required
 
 ### Multi-file folder
 
 ```text
-examples/<name>/
+<dashboard-name>/
 ├── index.html
 ├── css/styles.css
 ├── js/main.js, theme.js, i18n.js, charts.js, render.js, api.js
@@ -113,12 +113,6 @@ HTML cards: `bg-[var(--bg-card)] rounded-card border border-[var(--border-subtle
 **Checklist:** theme works, i18n works, responsive, semantic HTML, CDN loads, no broken paths.
 
 **Priorities:** Consistency → Readability → Hierarchy → Spacing → UX → Premium → Responsive → Reusable
-
----
-
-## Example
-
-See `examples/operations-summary.html` — AMR fleet summary with KPI, charts, table, theme + i18n toggles.
 
 ## Detailed Reference
 

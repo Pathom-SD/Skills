@@ -35,5 +35,3 @@ Verify before delivering any dashboard.
 - [ ] Mock data renders; numbers readable at a glance
 
 **Output priorities:** Consistency → Readability → Hierarchy → Spacing → UX clarity → Premium feel → Responsiveness → Reusability
-
-Example output: `examples/operations-summary.html`

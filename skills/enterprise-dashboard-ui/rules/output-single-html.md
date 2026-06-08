@@ -7,7 +7,7 @@ tags: html, cdn, single-file
 
 ## Single HTML File
 
-Default output: **one `.html` file** under `examples/` (or user path). Runs via double-click or static host — no npm.
+Default output: **one `.html` file** at a user-specified path. Runs via double-click or static host — no npm.
 
 **Incorrect:**
 
@@ -36,7 +36,7 @@ Default output: **one `.html` file** under `examples/` (or user path). Runs via 
 | Layout | Single page, full width, **no sidebar** |
 | Theme | Light + dark required — `rules/theme-light-dark.md` |
 | Language | TH + EN required — `rules/i18n-th-en.md` |
-| Filename | kebab-case, e.g. `operations-summary.html` |
+| Filename | kebab-case, e.g. `fleet-summary.html` |
 
 Tailwind config inline with `darkMode: ["class", '[data-theme="dark"]']`, brand primary `#da251c`.
 
