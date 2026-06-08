@@ -15,7 +15,7 @@ Structured skill for creating enterprise summary dashboards — optimized for ag
 ## Install
 
 ```bash
-npx skills add https://github.com/Pathom-SD/Skills --skill enterprise-dashboard-ui -y
+npx skills add https://github.com/Pathom-SD/Skills --skill enterprise-dashboard-ui
 ```
 
 ## Creating a New Rule
